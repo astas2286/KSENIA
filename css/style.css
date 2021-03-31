@@ -1388,6 +1388,16 @@ body {
   line-height: 130%;
 }
 
+.about__logo {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.about__logo img {
+  max-width: 100%;
+}
+
 .about__question {
   font-weight: 700;
   font-size: 30px;
