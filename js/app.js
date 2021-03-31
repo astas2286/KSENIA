@@ -66,10 +66,10 @@ function sliders_bild_callback(params) { }
 
 let slider_about = new Swiper('.fullscreen__slider', {
 	
-	//  effect: 'fade',
-	 autoplay: {
-	 	delay: 3000,
-	 	disableOnInteraction: false,
+	effect: 'fade',
+	autoplay: {
+	delay: 5000,
+	disableOnInteraction: false,
 	},
 	
 	observer: true,
